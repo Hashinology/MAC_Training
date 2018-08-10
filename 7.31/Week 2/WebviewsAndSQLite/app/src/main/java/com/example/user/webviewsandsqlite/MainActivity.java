@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         etName = (EditText) findViewById(R.id.etName);
         etNumber = (EditText) findViewById(R.id.etNumber);
 
-
     }
 
     public void saveContact(View view) {

@@ -72,8 +72,8 @@ public class YellowFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        tvFirstName = (TextView) view.findViewById(R.id.tvFirstName);
-        tvlastName = (TextView) view.findViewById(R.id.tvLastName);
+        tvFirstName = view.findViewById(R.id.tvFirstName);
+        tvlastName = view.findViewById(R.id.tvLastName);
 
     }
 

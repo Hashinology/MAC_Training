@@ -2,7 +2,6 @@ package com.example.user.multithreadingandroid;
 
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 
 /**
  * Created by singh on 9/7/17.

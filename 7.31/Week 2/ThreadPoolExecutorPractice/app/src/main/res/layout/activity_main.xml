@@ -73,4 +73,12 @@
         android:onClick="addCallable"
         android:text="Add Callable" />
 
+    <Button
+        android:id="@+id/btnAddCallableRx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addCallableRx"
+        android:text="Add Callable Rx" />
+
+
 </LinearLayout>

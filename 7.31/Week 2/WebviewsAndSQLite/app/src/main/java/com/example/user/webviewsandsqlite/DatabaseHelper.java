@@ -33,9 +33,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
-        String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "(" +
+        String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " (" +
                 CONTACT_NAME + " TEXT," +
-                CONTACT_NUMBER + " TadEXT PRIMARY KEY" +
+                CONTACT_NUMBER + " TEXT PRIMARY KEY" +
                 ")";
 
         sqLiteDatabase.execSQL(CREATE_TABLE);
